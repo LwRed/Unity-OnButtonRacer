@@ -11,8 +11,8 @@ Fonctionnalites / Fonctionalities :
     - MacOs et Windows Builds Ok
     - End / Restart Game / Restart Level
 
-<img src="CaptureMenu.png" width="640">
-<img src="CaptureDemo.png" width="640">
-<img src="Capture2Players.png" width="640">
+<img src="Capture-Menu.png" width="640">
+<img src="Capture-Demo.png" width="640">
+<img src="Capture-2Players.png" width="640">
 
  
