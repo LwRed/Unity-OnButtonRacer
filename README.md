@@ -15,9 +15,4 @@ Fonctionnalites / Fonctionalities :
 <img src="CaptureDemo.png" width="640">
 <img src="Capture2Players.png" width="640">
 
-To Do Help :
-- French / English / Spanish Interface
-- Menu
-- Level Generator
-- Zoom In / Out Cam
  
