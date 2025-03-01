@@ -1,0 +1,23 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Audio;
+
+public class SetVolume : MonoBehaviour
+{
+
+    public AudioMixer mixer;
+
+    public void SetLevel (float sliderValue)
+    {
+        mixer.SetFloat ("MusicVol", Mathf.Log10 (sliderValue) * 20);
+
+        // update volume again when slider changes
+        AudioListener.volume = sliderValue;
+
+        // this SAVES the incoming slider change for next time
+        PlayerPrefs.SetFloat("MusicVol", sliderValue);
+        
+    }
+
+}
